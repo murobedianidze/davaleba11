@@ -1,0 +1,142 @@
+/* p{
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+    margin: 400px auto;
+}
+
+p::before{
+    content: "HI";
+    width: 200px;
+    height: 3px;
+    background-color: red;
+    display: inline-block;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+p::after{
+    content: "hi";
+    width: 200px;
+    height: 3px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: middle;
+} */
+/* button{
+    width: 200px;
+    height: 50px;
+    display: block;
+    margin: 100px auto;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    cursor: pointer;
+}
+button::before{
+    content: "";
+    width: 0%;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: 1s ease;
+
+}
+p{
+    position:absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+button::after{
+    content: "";
+    width: 0%;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 1s ease;
+}
+button:hover::before,button:hover::after{
+    width: 100%;
+} */
+/* p{
+    font-size: 40px;
+}
+p::before{
+    content: "\f03e";
+    font-family: "font awesome 6 free";
+    color: red;
+} */
+
+ /* .card{
+    width: 300px;
+    height: 400px;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+} 
+ .img_box{
+    width: 90%;
+    height: 70%;
+    border: 2px solid blue;
+    overflow: hidden;
+}
+.img_box_img{
+    width: 100%;
+    height: 100%;
+    transition: 2s ease-in-out;
+}
+.img_box_img:hover{
+    transform: scale(1.5);
+}
+.description{
+    font-size: 2rem;
+} 
+.img_box{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.text_box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    left: 0;
+    bottom: 0;
+    transition: 1s ease;
+}
+.card:hover .text_box{
+  height: 30%;
+} */
+
+label{
+    display: block;
+}
+#ABOUT{
+    resize: none;
+    width: 500px;
+    height: 200px;
+}
+input[type=text]{
+    border: none;
+    border-bottom: 5px solid red;
+    outline: none;
+    width: 500px;
+}
