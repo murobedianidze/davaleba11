@@ -30,37 +30,80 @@
             </div>
 
         </header>
-<!-- main -->
+        <!-- main -->
         <main>
             <h1 class="Main_title">Contact Us</h1>
 
-
+<!-- form -->
             <form>
 
-                  <div class="form_div1">
-                    <label for="Name">First Name</label>
-                    <input type="text" id="Name" name="სახელი">
-
-                    <label for="Lastname">Last Name</label>
-                    <input type="text" id="Lastname" name="გვარი">
-                  </div>
-
-                    <div class="form_div2">
-                        <label for="Age">Age</label>
-                    <input type="number" id="Age" name="ასაკი">
-
-                    <label for="Email">Email Adress</label>
-                    <input type="email" id="Email" name="email">
+                <div class="First_line">
+                    <div class="form_div">
+                        <label class="form_label" for="Name">First Name</label>
+                        <input type="text" id="Name" name="სახელი">
                     </div>
+    
+                    <div class="form_div">
+                        <label class="form_label"  for="Lastname">Last Name</label>
+                        <input type="text" id="Lastname" name="გვარი">
+                    </div>
+                </div>
 
-                <label for="F">Full Time</label>
-                <input type="radio" id="F" name="f">
-                
-                <label for="P">Part-Time</label>
-                <input type="radio" id="P" name="p">
+                <div class="Second_line">
+                    <div class="form_div">
+                        <label class="form_label" for="Age">Age</label>
+                        <input type="number" id="Age" name="ასაკი">
+                    </div>
+    
+                    <div class="form_div">
+                        <label class="form_label" for="Email">Email Adress</label>
+                        <input type="email" id="Email" name="email">
+                    </div>
+                </div>
+                <!-- input radio -->
+                <div class="radio_div">
 
-                <label for="R">Remote</label>
-                <input type="radio" id="R" name="p">
+                    <h2 class="radio_title">The schedule of work you are interested in</h2>
+
+                    <input type="radio" id="schedule" name="schedule">
+                    <label class="schedule" for="schedule">Full-Time</label>
+
+                    <input type="radio" id="schedule" name="schedule">
+                    <label class="schedule" for="schedule">Part-Time</label>
+
+                    <input type="radio" id="schedule" name="schedule">
+                    <label class="schedule" for="schedule">Remote</label>
+
+                </div>
+                <!-- checkbox -->
+                <div class="checkbox_div">
+
+                    <h2 class="checkbox_title">Select the programming languages, you know</h2>
+
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label class="checkbox" for="checkbox">Angular</label>
+
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label class="checkbox" for="checkbox">Python</label>
+
+                    <input type="checkbox" id="checkbox" name="checkbox">
+                    <label class="checkbox" for="checkbox">Javascript</label>
+
+                </div>
+                <!-- choose file -->
+                <div class="choose_div">
+
+                    <h2 class="choose_title">Attach any supporting documents (resume, CV, cover letter, etc.</h2>
+
+                    <button>Choose file</button>
+                    <p class="choose_text">No file chosen</p>
+
+                </div>
+                <div class="last_div">
+                  <button type="submit">SEND MESSAGE</button>
+                  <input type="reset">
+                </div>
+
             </form>
         </main>
         <!-- footer -->
