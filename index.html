@@ -34,7 +34,7 @@
         <main>
             <h1 class="Main_title">Contact Us</h1>
 
-<!-- form -->
+            <!-- form -->
             <form>
 
                 <div class="First_line">
@@ -42,66 +42,68 @@
                         <label class="form_label" for="Name">First Name</label>
                         <input type="text" id="Name" name="სახელი">
                     </div>
-    
+
                     <div class="form_div">
-                        <label class="form_label"  for="Lastname">Last Name</label>
+                        <label class="form_label" for="Lastname">Last Name</label>
                         <input type="text" id="Lastname" name="გვარი">
                     </div>
-                </div>
 
-                <div class="Second_line">
+               
                     <div class="form_div">
                         <label class="form_label" for="Age">Age</label>
                         <input type="number" id="Age" name="ასაკი">
                     </div>
-    
+
                     <div class="form_div">
                         <label class="form_label" for="Email">Email Adress</label>
                         <input type="email" id="Email" name="email">
                     </div>
                 </div>
+              
                 <!-- input radio -->
-                <div class="radio_div">
+                <div class="form2">
 
                     <h2 class="radio_title">The schedule of work you are interested in</h2>
 
-                    <input type="radio" id="schedule" name="schedule">
-                    <label class="schedule" for="schedule">Full-Time</label>
+                    <input type="radio" id="FULL" name="schedule" value="Full-Time">
+                    <label class="schedule" for="FULL">Full-Time</label>
 
-                    <input type="radio" id="schedule" name="schedule">
-                    <label class="schedule" for="schedule">Part-Time</label>
 
-                    <input type="radio" id="schedule" name="schedule">
-                    <label class="schedule" for="schedule">Remote</label>
+                    <input type="radio" id="PART" name="schedule" value="Part-Time">
+                    <label class="schedule" for="PART">Part-Time</label>
+
+
+                    <input type="radio" id="REMOTE" name="schedule" value="remote">
+                    <label class="schedule" for="REMOTE">Remote</label>
 
                 </div>
                 <!-- checkbox -->
-                <div class="checkbox_div">
+                <div class="form2">
 
                     <h2 class="checkbox_title">Select the programming languages, you know</h2>
 
-                    <input type="checkbox" id="checkbox" name="checkbox">
-                    <label class="checkbox" for="checkbox">Angular</label>
+                    <input type="checkbox" id="angular" name="Angular" value="ANGULAR">
+                    <label class="checkbox" for="angular">Angular</label>
 
-                    <input type="checkbox" id="checkbox" name="checkbox">
-                    <label class="checkbox" for="checkbox">Python</label>
 
-                    <input type="checkbox" id="checkbox" name="checkbox">
-                    <label class="checkbox" for="checkbox">Javascript</label>
+                    <input type="checkbox" id="python" name="Python" value="PUTHON">
+                    <label class="checkbox" for="python">Python</label>
+
+
+                    <input type="checkbox" id="js" name="Javascript" value="JAVASCRIPT">
+                    <label class="checkbox" for="js">Javascript</label>
+
 
                 </div>
                 <!-- choose file -->
-                <div class="choose_div">
+                <div class="form2">
 
                     <h2 class="choose_title">Attach any supporting documents (resume, CV, cover letter, etc.</h2>
-
-                    <button>Choose file</button>
-                    <p class="choose_text">No file chosen</p>
-
+                    <input type="file" id="input3">
                 </div>
                 <div class="last_div">
-                  <button type="submit">SEND MESSAGE</button>
-                  <input type="reset">
+                    <button type="submit">SEND MESSAGE</button>
+                    <input type="reset">
                 </div>
 
             </form>
